@@ -1,8 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 if(time < text_length){
+
+
+
+
 time += spd;
-print = string_copy(text,0,time);
+
+print = string_byte_length(text);
 }
 
 draw_set_alpha(alpha);

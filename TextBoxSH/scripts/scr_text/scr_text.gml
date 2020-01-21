@@ -11,6 +11,7 @@ with(txt){
 	text_length = string_length(text);
 	font_size = font_get_size(font);
 	
+	
 	draw_set_font(font);
 	
 	text_width = string_width_ext(text, font_size+(font_size/2),maxlength);
@@ -18,4 +19,12 @@ with(txt){
 	
 	boxwidth = text_width + (padding*2);
 	boxheight = text_height + (padding*2);
+	
+	for (var i = 0; i < text_length; ++i) {
+    if(string_char_at(text,i) == " "){
+	show_debug_message(i);
+	
+	}
+}
+	
 }

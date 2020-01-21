@@ -3,3 +3,4 @@
 alpha =0;
 print = "";
 time =0;
+i =0;
